@@ -1,0 +1,3 @@
+﻿  Source.cpp
+M:\Projects\Assignment\Travelling Amazon Salesman\Travelling Amazon Salesman\Source.cpp(7,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Travelling Amazon Salesman.vcxproj -> M:\Projects\Assignment\Travelling Amazon Salesman\Debug\Travelling Amazon Salesman.exe
