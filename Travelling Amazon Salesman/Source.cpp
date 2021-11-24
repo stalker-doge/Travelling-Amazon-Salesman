@@ -11,6 +11,7 @@ void main()
 	const int ROWS = 15;
 	const int COLS = 15;
 	int cityDistances[ROWS][COLS];
+	int tspPath[16]
 	int startPos, pos;
 
 	for (int row = 0; row < ROWS; row++)
