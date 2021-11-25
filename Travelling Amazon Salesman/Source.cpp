@@ -12,6 +12,11 @@ void main()
 	const int COLS = 15;
 	int cityDistances[ROWS][COLS];
 	int tspPath[16];
+	tspPath[0] = 0;
+	tspPath[15] = 0;
+	srand(time(NULL));
+	int rndCity = rand() % 14 + 1;
+	bool alreadyChosen = true;
 	int startPos, pos;
 	for (int row = 0; row < ROWS; row++)
 	{
@@ -28,14 +33,30 @@ void main()
 		strVal = strLine.substr(startPos, strLine.length() - startPos);
 		cityDistances[row][COLS - 1] = atoi(strVal.c_str());
 	}
-	cout << "\nCity Distances:\n";
-	for (int row = 0; row < ROWS; row++)
+	for (int currPos = 1; currPos < 15; currPos++)
 	{
-		for (int col = 0; col < COLS; col++)
+		alreadyChosen = true;
+		do
 		{
-			cout << "\t" << cityDistances[row][col];
-		}
-		cout << "\n";
+			rndCity = rand() % 14 + 1;
+			alreadyChosen = false;
+
+			for (int pos = 1; pos < currPos; pos++)
+			{
+				if (tspPath[pos] == rndCity)
+				{
+					alreadyChosen = true;
+				}
+			}
+
+		} while (alreadyChosen == true);
+		tspPath[currPos] = rndCity;
 	}
+	cout << "\nCurrent path is:\n";
+	for (int i = 0; i < 16; i++)
+	{
+		cout << "\t" << tspPath[i];
+	}
+	cout << "\n";
 	system("pause");
 }

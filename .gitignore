@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+*.db
+.vs/Travelling Amazon Salesman/v16/.suo
+*.pdb
+*.idb
+*.log
+*.ilk
+*.tlog
+*.pdb
