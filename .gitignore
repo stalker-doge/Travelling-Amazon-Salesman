@@ -42,3 +42,6 @@
 *.db
 .vs/Travelling Amazon Salesman/v16/.suo
 *.ipch
+*.opendb
+*.pdb
+*.tlog
