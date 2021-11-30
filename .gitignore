@@ -38,3 +38,7 @@
 *.ilk
 *.tlog
 *.pdb
+*.db
+*.db
+.vs/Travelling Amazon Salesman/v16/.suo
+*.ipch
