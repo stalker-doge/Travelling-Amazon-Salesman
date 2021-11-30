@@ -81,7 +81,6 @@ void main()
 			biggestTotalDist = totalDist;
 		}
 		totalDist = 0;
-		cout << "\ntest\n";
 	}
 	auto stop = high_resolution_clock::now();
 	auto duration = duration_cast<microseconds>(stop - start);

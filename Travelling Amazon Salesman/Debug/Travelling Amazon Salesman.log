@@ -1,3 +1,6 @@
 ﻿  Source.cpp
-M:\Projects\Assignment\Travelling Amazon Salesman\Travelling Amazon Salesman\Source.cpp(7,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
-  Travelling Amazon Salesman.vcxproj -> M:\Projects\Assignment\Travelling Amazon Salesman\Debug\Travelling Amazon Salesman.exe
+M:\Projects\Assignment\Travelling-Amazon-Salesman\Travelling Amazon Salesman\Source.cpp(9,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+M:\Projects\Assignment\Travelling-Amazon-Salesman\Travelling Amazon Salesman\Source.cpp(25,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+M:\Projects\Assignment\Travelling-Amazon-Salesman\Travelling Amazon Salesman\Source.cpp(87,116): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  LINK : M:\Projects\Assignment\Travelling-Amazon-Salesman\Debug\Travelling Amazon Salesman.exe not found or not built by the last incremental link; performing full link
+  Travelling Amazon Salesman.vcxproj -> M:\Projects\Assignment\Travelling-Amazon-Salesman\Debug\Travelling Amazon Salesman.exe
