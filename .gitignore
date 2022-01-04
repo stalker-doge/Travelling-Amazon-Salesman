@@ -45,3 +45,6 @@
 *.opendb
 *.pdb
 *.tlog
+*.db
+*.db-shm
+*.db-wal
